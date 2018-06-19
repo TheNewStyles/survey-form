@@ -7,10 +7,9 @@ import Form from './Form.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container" id="#page">
         <Title />
-        <Form />
-        
+        <Form />        
       </div>
     );
   }

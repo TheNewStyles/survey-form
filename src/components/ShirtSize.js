@@ -4,9 +4,9 @@ class ShirtSize extends Component {
   render() {
     return (
         <article>
-        <label id="dropdown-label" for="dropdown">T-shirt Size: </label>
+        <label id="dropdown-label" htmlFor="dropdown">T-shirt Size: </label>
             <select id="dropdown">
-                <option selected disabled hidden value=''></option>
+                <option disabled hidden defaultValue=''></option>
                 <option value="xl">X-Large</option>
                 <option value="large">Large</option>
                 <option value="medium">Medium</option>

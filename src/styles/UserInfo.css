@@ -1,0 +1,20 @@
+.container-user-info {
+    /* Flex css */
+    display: flex; 
+    flex-direction: column;  
+}
+
+.user-info-margin-bottom {
+    margin-bottom: .75rem ;    
+}
+
+.input-number {
+    width: 80px;    
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+}
+ 
+
+
+  

@@ -11,7 +11,7 @@ import Submit from './Submit';
 class Form extends Component {
   render() {
     return (
-    <section>
+    <section className="item">
         <form>
             <UserInfo />
             <ShirtSize />
