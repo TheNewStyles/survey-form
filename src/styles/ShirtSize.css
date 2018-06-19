@@ -1,0 +1,13 @@
+.shirt-size-container {
+    display: flex; 
+    flex-direction: column;  
+}
+
+.shirt-size-margin-bottom {
+    margin-bottom: .75rem ;    
+}
+
+.shirt-size-dropdown {
+    width: 100px;
+    text-align: center;
+}

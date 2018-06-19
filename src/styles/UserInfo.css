@@ -1,5 +1,4 @@
-.container-user-info {
-    /* Flex css */
+.user-info-container {
     display: flex; 
     flex-direction: column;  
 }
@@ -8,8 +7,8 @@
     margin-bottom: .75rem ;    
 }
 
-.input-number {
-    width: 80px;    
+.user-info-input-number {
+    width: 100px;    
     vertical-align: top;
     text-align: center;
     outline: none;
