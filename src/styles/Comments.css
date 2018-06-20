@@ -1,3 +1,13 @@
 .comments-text-area {
     width: 100%;
 }
+
+textarea {
+    resize: none;    
+    background: rgba(155, 155, 155, 0.1);
+}
+
+textarea::placeholder {
+    text-align: center;
+    line-height: 12.5em;
+}

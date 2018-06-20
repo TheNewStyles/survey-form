@@ -8,6 +8,12 @@
 }
 
 .shirt-size-dropdown {
-    width: 100px;
+    width: 130px;
+    vertical-align: top;
     text-align: center;
+    outline: none;
+    text-align-last:center; 
 }
+
+
+
