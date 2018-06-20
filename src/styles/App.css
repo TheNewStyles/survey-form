@@ -3,6 +3,8 @@
   flex-direction: column;  
 
   text-align: left;
+
+  margin: 1.5em;
 }
 
 .item {

@@ -6,8 +6,8 @@ class PoliticalParty extends Component {
   render() {
     return (
         <article>
-            <p>Please select your political party:</p>
-            <div className="political-party-container">
+            <fieldset className="political-party-container">
+                <legend>Please select your political party:</legend>
                 <span>
                     <input id="democrat-radio-button" name="political-party" type="radio" value="Democrat"/>
                     <label htmlFor="democrat-radio-button">Democrat</label>
@@ -20,7 +20,7 @@ class PoliticalParty extends Component {
                     <input id="libertarian-radio-button" name="political-party" type="radio" value="Libertarian"/>
                     <label htmlFor="libertarian-radio-button">Libertarian</label>
                 </span>              
-            </div>
+            </fieldset>
         </article>   
     );
   }

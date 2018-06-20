@@ -12,7 +12,7 @@ class Form extends Component {
   render() {
     return (
     <section className="item">
-        <form>
+        <form action="">
             <UserInfo />
             <ShirtSize />
             <ContactMethod />

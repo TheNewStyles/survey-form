@@ -1,22 +1,10 @@
-.item-a {
-    grid-area: header;
-}
-.item-b {
-    grid-area: main;
-}
-.item-c {
-    grid-area: sidebar;
-}
-.item-d {
-    grid-area: footer;
-}
-
 .interests-container {
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
 
-    grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
+.interests-item {
+    margin: 1em 0.4em 1em 0.4em; 
 }

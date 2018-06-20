@@ -6,8 +6,8 @@ class ContactMethod extends Component {
   render() {
     return (
         <article>
-            <p >Please select your preferred contact method:</p>
-            <div className="contact-method-container">
+            <fieldset className="contact-method-container">
+                <legend>Please select your preferred contact method:</legend>
                 <span>
                     <input id="email-radio-button" name="contact-method"type="radio" value="email"/>
                     <label htmlFor="contactChoice1">Email</label>
@@ -20,7 +20,7 @@ class ContactMethod extends Component {
                     <input id="mail-radio-button" name="contact-method" type="radio" value="mail"/>
                     <label htmlFor="contactChoice3">Mail</label>
                 </span> 
-            </div>         
+            </fieldset>         
         </article>    
     );
   }
