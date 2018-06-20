@@ -8,7 +8,7 @@ class UserInfo extends Component {
         <article className="user-info-container">
           <span className="user-info-container">
             <label id="name-label" htmlFor="name" >Name:  </label>
-            <input id="name" className="user-info-margin-bottom" type="text" pattern="[A-Za-z]" placeholder="Enter name"/>
+            <input id="name" className="user-info-margin-bottom" type="text" placeholder="Enter name"/>
           </span>
           <span className="user-info-container">  
             <label id="email-label" htmlFor="email">Email address:  </label>

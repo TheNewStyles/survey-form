@@ -1,5 +1,5 @@
 .comments-text-area {
-    width: 100%;
+    width: 99%;
 }
 
 textarea {
@@ -9,5 +9,5 @@ textarea {
 
 textarea::placeholder {
     text-align: center;
-    line-height: 12.5em;
+    padding: 5em;
 }
