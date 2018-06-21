@@ -10,7 +10,7 @@ class Interests extends Component {
             <legend>Choose your interests</legend>
             <div className="interests-container">
                 <span className="interests-item">
-                    <input id="coding" type="checkbox"  name="interest" value="coding"/>
+                    <input id="coding" type="checkbox" name="interest" value="coding"/>
                     <label htmlFor="coding">Coding</label>
                 </span>
                 <span className="interests-item">
