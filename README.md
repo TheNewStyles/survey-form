@@ -1,4 +1,4 @@
-# My Survey Form built for FreeCodeCamp Projects - Repsonsive Web Design
+# My Survey Form built for FreeCodeCamp Responsive Web Design Projects 
 ## View it live here https://thenewstyles.github.io/survey-form/
 ## Responsive Web Design Projects - Build a Survey Form
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
