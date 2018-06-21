@@ -4,7 +4,7 @@ class Title extends Component {
   render() {
     return (
         <header className="item">         
-          <h1 id="title">React Survey Form</h1>
+          <h1 id="title">Survey Form</h1>
           <p id="description">I created this survey form as part of the FreeCodeCamp - Responsive Web Design Project Projects.</p>
         </header>        
     );
