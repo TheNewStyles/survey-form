@@ -8,8 +8,8 @@ class ShirtSize extends Component {
         <article className="shirt-size-container">
             <span className="shirt-size-container">
                 <label id="dropdown-label" htmlFor="dropdown">T-shirt Size: </label>
-                <select id="dropdown" className="shirt-size-dropdown">
-                    <option defaultValue=''></option>
+                <select id="dropdown" className="shirt-size-dropdown" >
+                    <option ></option>
                     <option value="xl">X-Large</option>
                     <option value="large">Large</option>
                     <option value="medium">Medium</option>

@@ -28,5 +28,6 @@ describe('<Interests />', () => {
       expect(node).not.toBeChecked();
     });
   });
+  
 });
 
